@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "chain-reaction-mobile",
-    "slug": "chain-reaction-mobile",
+    "name": "tseyn reaksyon",
+    "slug": "tseyn-reaksyon",
+    "scheme": "tseyn-reaksyon",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,6 +21,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-audio",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
